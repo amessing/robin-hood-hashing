@@ -40,6 +40,7 @@ target_sources_local(rh PRIVATE
     unit_at.cpp
     unit_calcMaxNumElementsAllowed.cpp
     unit_calcsize.cpp
+    unit_compact.cpp
     unit_copyassignment.cpp
     unit_count.cpp
     unit_diamond.cpp
@@ -51,7 +52,9 @@ target_sources_local(rh PRIVATE
     unit_hash_string_view.cpp
     unit_heterogeneous.cpp
     unit_include_only.cpp
+    unit_initializer_list_insert.cpp
     unit_initializerlist.cpp
+    unit_insert_collision.cpp
     unit_insert_or_assign.cpp
     unit_insert.cpp
     unit_iterator_twice_bug.cpp
@@ -63,6 +66,7 @@ target_sources_local(rh PRIVATE
     unit_iterators_stochastic.cpp
     unit_load_factor.cpp
     unit_maps_of_maps.cpp
+    unit_memleak_reserve.cpp
     unit_multiple_apis.cpp
     unit_mup.cpp
     unit_no_intrinsics.cpp
